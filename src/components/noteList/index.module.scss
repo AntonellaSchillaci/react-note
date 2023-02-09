@@ -1,0 +1,20 @@
+.NoteList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 0 100px 0;
+    height: 400px;
+    overflow-x: scroll;
+
+    $breakpoint-tablet: 768px;
+      @media (min-width: $breakpoint-tablet) {
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+      } 
+      
+  
