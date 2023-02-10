@@ -23,6 +23,7 @@ const Login = () => {
           id="username"
           name="username"
           placeholder="Nome utente..."
+          autocomplete="off"
         />
         <input className ={styles.btnLogin} type="submit" value="Login" />
       </form>

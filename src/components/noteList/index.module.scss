@@ -9,7 +9,7 @@
 
     $breakpoint-tablet: 768px;
       @media (min-width: $breakpoint-tablet) {
-        height: 300px;
+        height: 250px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

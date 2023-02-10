@@ -19,6 +19,7 @@ const NoteContent = () => {
         id="search"
         name="search"
         placeholder="Cerca..."
+        autocomplete="off"
       />
       <NoteList />
     </div>

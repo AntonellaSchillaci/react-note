@@ -42,6 +42,7 @@ const AddNote = () => {
                 value={title}
                 onChange={(e) => setTitle(() => e.target.value)}
                 placeholder="Titolo"
+                autocomplete="off"
                 required
               />
               <input
@@ -52,6 +53,7 @@ const AddNote = () => {
                 value={content}
                 onChange={(e) => setContent(() => e.target.value)}
                 placeholder="Contenuto"
+                autocomplete="off"
                 required
               />
               <input

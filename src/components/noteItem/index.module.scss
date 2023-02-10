@@ -7,6 +7,16 @@
     border: 2px solid palegreen;
     border-radius: 8px;
     width: 360px;
+    
+    &:hover {
+      background-color: palegreen;
+      h1 {
+        color: black;
+      }
+      p{
+        color: darkslategrey;
+      }
+    }
 
     h1 {
       color:palegreen;
